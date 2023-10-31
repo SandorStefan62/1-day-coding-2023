@@ -18,7 +18,7 @@ const defaultCenter = {
 
 function App() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyD88jx3lVkZfKRqNCgephqb1GRChTRqF94',
+    googleMapsApiKey: '',
     libraries
   })
   const [markers, setMarkers] = useState([
